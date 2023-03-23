@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1d1f;
+    color: #0e6b0e;
+    height: 100%;
+}
+.container{
+    display: flex;
+}
+.container,
+.first{
+    justify-content: center;
+    align-items: center;
+}
+.round-counter{
+    width: 80px;
+    height: 80px;
+    border: solid #0e6b0e 3px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.title-block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inherit;
+    justify-content: space-between;
+    min-width: 100vw;
+}
+ul{
+    margin-left: 10px;
+    display: inherit;
+    gap: 12px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.name{
+    margin-right: 10px;
+}
