@@ -14,18 +14,75 @@ body{
 }
 .container{
     display: flex;
+    min-width: 100vw;
 }
-.container,
+.third,
 .first{
     justify-content: center;
     align-items: center;
+}
+.textbox{
+    border: #0e6b0e 3px solid;
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+    font-size: 25px;
+}
+#textp{
+    font-family: inherit;
+    font-size: 20px;
+}
+.fourth{
+    align-items: center;
+    justify-content: space-around;
+}
+.interaction{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border: solid #0e6b0e 3px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interaction:hover{
+    background-color: #0e6b0e;
+    color: black;
+    border: black solid 3px;
+}
+.second{
+    justify-content: space-around;
+    align-items: center;
+}
+.points{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    border: #0e6b0e solid 3px;
+}
+.icon{
+    width: 6rem;
+    height: 8rem;
 }
 .round-counter{
     width: 80px;
     height: 80px;
     border: solid #0e6b0e 3px;
     font-size: 40px;
-    font-family: 'Orbitron', sans-serif;;
+    font-family: 'Orbitron', sans-serif;
     background-color: black;
     color: whitesmoke;
     display: flex;
@@ -43,6 +100,10 @@ header{
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 5px;
+}
+h1,
+h4{
+    font-family: 'Orbitron', sans-serif;
 }
 .title-block{
     display: flex;

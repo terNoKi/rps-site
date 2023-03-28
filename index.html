@@ -16,17 +16,23 @@
         </div>
     </header>
     <div class="cointainer first">
-        <div class="round-counter">#</div>
+        <div class="round-counter" id="rounds"></div>
     </div>
     <div class="container second">
-        <div class="points man">#</div>
-        <div id="icon">#</div>
-        <div class="points machine">#</div>
+        <div class="points man" id="Player"></div>
+        <div><img class="icon" src="./images/robot-back.jpg" alt="robots back"></div>
+        <div class="points machine" id="Computer"></div>
     </div>
     <div class="container third">
-        <button class="interaction rock">ROCK</button>
-        <button class="interaction paper">PAPER</button>
-        <button class="interaction scissors">SCISSORS</button>
+        <div class="textbox" id="textbox">
+            <h4 id="texth">The fight begins</h4>
+            <p id="textp">Pick your weapon</p>
+        </div>
+    </div>
+    <div class="container fourth">
+        <button class="interaction rock" id="Rock">ROCK</button>
+        <button class="interaction paper" id="Paper">PAPER</button>
+        <button class="interaction scissors" id="Scissors">SCISSORS</button>
     </div>
     <footer>
         <ul class="social">
@@ -34,7 +40,7 @@
             <li><a href="https://twitter.com/terNoKi1">Twitter</a></li>
             <li><a href="https://www.instagram.com/ternoki/">Instagram</a></li>
         </ul>
-        <p class="name"><a href="file:///C:/Users/User/Desktop/projekty/landing-page/index.html">by terNoKi</a></p>
+        <p class="name"><a href="https://ternoki.github.io/landing-page/">by terNoKi</a></p>
     </footer>
     </div>
     <script src="rps.js"></script>
